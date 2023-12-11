@@ -1,4 +1,38 @@
-.logo{
-    width: 140px;
-    height: 100px;
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url('../assets/fonts/Montserrat/Montserrat-Regular.ttf');
+}
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url('../assets/fonts/Montserrat/Montserrat-Bold.ttf');
+}
+@font-face {
+    font-family: Montserrat-thin;
+    src: url('../assets/fonts/Montserrat/Montserrat-Thin.ttf');
+}
+@font-face {
+    font-family: Montserrat-italic;
+    src: url('../assets/fonts/Montserrat/Montserrat-Italic.ttf');
+}
+@font-face {
+    font-family: Hedvig-18;
+    src: url('../assets/fonts/Hedvig/HedvigLettersSerif_18pt-Regular.ttf');
+}
+@font-face {
+    font-family: Hedvig-14;
+    src: url('../assets/fonts/Hedvig/HedvigLettersSerif_14pt-Regular.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --white: #ececec;
+    --orange: rgba(242,148,0,255)
+    --brown: rgba(75,47,27,255);
+    --black: rgba(0,0,0,255);
+    --blue: rgb(12,51,132);
+    --shadow: 0 0 10px rgba(0,0,0,0.5);
 }
