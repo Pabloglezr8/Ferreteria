@@ -36,3 +36,62 @@
     --blue: rgb(12,51,132);
     --shadow: 0 0 10px rgba(0,0,0,0.5);
 }
+
+/*Slide Comentarios Clientes*/
+.slider-container {
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.customer-feedback {
+    text-align: center;
+    padding: 20px;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.slider-input {
+    display: none;
+}
+
+.slider-input:checked + .slides {
+    transform: translateX(-100%);
+}
+
+.slider-input:checked + .slides + .arrow.next {
+    transform: translateX(-100%);
+}
