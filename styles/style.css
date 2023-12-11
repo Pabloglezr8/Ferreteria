@@ -428,6 +428,11 @@ footer > div a{
     font-size: 1.8rem;
     color: white;
     text-decoration: none;
+
+    &:hover{
+        color: var(--color-secondary-dark);
+        text-decoration: underline;
+    }
 }
 
 footer > div p{
