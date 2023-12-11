@@ -74,7 +74,8 @@ header img{
     margin-bottom: 5rem;
 }
 
-.main-contact-section a{
+.main-contact-section a,
+.quality-section > div a{
     font-size: 1.5rem;
     text-decoration: none; 
     color: black;  
@@ -94,7 +95,8 @@ header img{
 }
 
 .section-tours-title h3,
-.professionalism-section h3{
+.professionalism-section h3,
+.quality-section h3{
     font-size: 2rem;
     color: var(--orange);
 }
@@ -218,3 +220,134 @@ header img{
         transform: translateX(calc(-170px * 7)); /* Ajusta el número total de logos */
     }
 }
+
+.quality-section{
+    background-color: var(--brown);
+    padding: 8rem;
+    font-size: 5.5rem;
+}
+
+.quality-section h3{
+    font-size: 4rem;
+    margin-bottom: 3rem;
+}
+
+.quality-section h2,
+.quality-section p{
+    color: var(--white);
+}
+
+.quality-section h2{
+    font-size: 2rem;
+}
+
+.quality-section > article{
+    width: 100%;
+}
+
+.quality-section > article > div{
+    display: flex;
+    gap: 5rem;
+    font-size: 3rem;
+    line-height: 1.75;
+}
+
+.quality-section > article > div img{
+    width: 100rem;
+    border-radius: 50%;
+}
+
+.quality-section > article > div p strong{
+    font-size: 2.2rem;
+}
+
+.quality-section > div a{
+    color: white;
+}
+
+.check-container{
+    display: grid;
+    width: 40%;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 3rem 0;
+}
+
+.check-container img{
+    position: relative;
+    top: 1.5rem;
+}
+
+
+.check-container > div > p .icon{
+    width: 50px;
+    height: 50px;
+    margin-right: 2rem;
+    margin-top: 4rem;
+}
+.check-container > div > p{
+    font-size: 2rem;
+    line-height: 1.75;
+    font-weight: bold;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+}
+
+.meet-us{
+    background-color: var(--orange);
+    position: relative;
+    padding: 8rem;
+    height: 50vh;
+}
+
+.meet-us h2{
+    color: var(--white);
+    font-size: 4rem;
+}
+
+.meet-us h3{
+    color: var(--brown);
+    font-size: 2.5rem;
+    margin-left: 15rem;
+}
+
+.right-container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15rem;
+}
+
+.meet-us a{
+    background-color: var(--brown);
+    color: var(--white);
+    text-decoration: none;
+    padding: 2rem;
+    font-size: 2rem;
+    border-radius: 2rem;
+    margin-right: 10rem;
+    transition: all .2s;
+
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
+
+.meet-us__img-container{
+    margin-top: 5rem;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+.meet-us__img-container img{
+    border-radius: 2rem;    
+}
+
+
+
+
+
