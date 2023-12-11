@@ -184,7 +184,7 @@ header img{
 
 .heading{
     font-size: 2rem;
-    color: var(--orange);
+    color: var(--brown);
     position: relative;
     left: 45%;
     margin-top: 3rem;
@@ -213,7 +213,7 @@ header img{
 
 .logos {
     display: flex;
-    animation: scroll 18s linear infinite; /* Duplica el tiempo para que los logos duplicados se muestren también */
+    animation: scroll 15s linear alternate infinite; 
 }
 
 .logo {
@@ -224,7 +224,8 @@ header img{
 
 .logoMarca {
     width: 170px;
-    height: 60px;
+    height: 80px;
+    background: transparent;
 }
 
 @keyframes scroll {
@@ -232,19 +233,14 @@ header img{
         transform: translateX(0);
     }
     100% {
-        transform: translateX(calc(-170px * 14)); /* Duplica el número total de logos */
+        transform: translateX(calc(-170px * 10)); 
     }
 }
-
 
 .quality-section{
     background-color: var(--brown);
     padding: 8rem;
     font-size: 5.5rem;
-}
-
-@media (min-width: ) {
-    
 }
 
 .quality-section h3{
