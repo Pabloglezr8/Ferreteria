@@ -1,15 +1,28 @@
+@import './navbar.css';
+
 *, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-size: 62.5%;
 }
-body {
-   
+body { 
     font-family: Arial, sans-serif;
     background-color: rgba(244,243,242,255);
     color: black;
+    font-size: 3rem;
 }
 
+
+
+header img{
+    margin: 5rem;
+    width: 100px;
+}
+
+.navigation__nlink{
+    font-size: 1rem;
+}
 .header-contact {
     position: relative;
     height: 50vh;
@@ -22,8 +35,7 @@ body {
     & h1{
         position: relative;
         color: white;
-        z-index: 1000;
-        font-size: 3rem;
+        font-size: 4rem;
 
     }
 }
@@ -61,19 +73,25 @@ body {
 }
 
 .image-container img {
+<<<<<<< HEAD
     width: 10rem;
     height: 10rem;
     border-radius: 55%;
+=======
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+>>>>>>> 48d27ef3b6b793b7f3bd1071c402af25b8e5b42d
     height: auto;
     
 }
 
 .image-container p{
-    font-size: 1.1rem;
+    font-size: 2rem;
 }
 
 .image-container h2 {
-    font-size: 1.7rem;
+    font-size: 3rem;
     margin-top: 10px;
     color: rgba(75,47,27,255);
     font-size: bold;
@@ -89,7 +107,7 @@ body {
     height: 400px;
 }
 .form-container {
-    width: 50rem;
+    width: 70rem;
     margin: 50px auto;
     color: black;
 }
@@ -106,6 +124,7 @@ form {
     padding: 20px;
     border-radius: 8px;
     width: 100%;
+    font-size: 3rem;
 }
 
 .form-group {
@@ -116,6 +135,7 @@ form {
 .form-group label {
     display: block;
     margin-bottom: 5px;
+    font-size: 2rem;
 }
 
 input,
@@ -144,7 +164,7 @@ button {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    font-size: 1.5rem;
+    font-size: 2rem;
     transition: all .5s;
 
     &:hover{

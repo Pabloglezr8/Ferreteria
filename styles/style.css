@@ -74,6 +74,7 @@ header img{
     margin-bottom: 5rem;
 }
 
+
 .main-contact-section a,
 .quality-section > div a{
     font-size: 1.5rem;
@@ -160,7 +161,7 @@ header img{
 }
 
 /*Slide Comentarios Clientes*/
-#slider-container {
+ #slider-container {
     max-width: 600px;
     margin: auto;
     overflow: hidden;
@@ -174,6 +175,20 @@ header img{
 .slide {
     min-width: 100%;
     box-sizing: border-box;
+}
+
+.SlideLogo{
+    height: 30vh;
+    display: flex;
+}
+
+.heading{
+    font-size: 2rem;
+    color: var(--orange);
+    position: relative;
+    left: 45%;
+    margin-top: 3rem;
+    font-size: 5rem;
 }
    
 .buttonSlide {
@@ -198,7 +213,7 @@ header img{
 
 .logos {
     display: flex;
-    animation: scroll 9s linear infinite;
+    animation: scroll 18s linear infinite; /* Duplica el tiempo para que los logos duplicados se muestren también */
 }
 
 .logo {
@@ -217,14 +232,19 @@ header img{
         transform: translateX(0);
     }
     100% {
-        transform: translateX(calc(-170px * 7)); /* Ajusta el número total de logos */
+        transform: translateX(calc(-170px * 14)); /* Duplica el número total de logos */
     }
 }
+
 
 .quality-section{
     background-color: var(--brown);
     padding: 8rem;
     font-size: 5.5rem;
+}
+
+@media (min-width: ) {
+    
 }
 
 .quality-section h3{
@@ -351,6 +371,7 @@ header img{
 .customers-reviews-section{
     background-color: var(--brown);
     height: 50vh;
+    padding: 5rem;
 }
 
 .customers-reviews-section h2{
