@@ -348,6 +348,25 @@ header img{
     border-radius: 2rem;    
 }
 
+.customers-reviews-section{
+    background-color: var(--brown);
+    height: 50vh;
+}
+
+.customers-reviews-section h2{
+    font-size: 4rem;
+    color: #ffffff;
+    margin-top: 8rem;
+}
+
+.paragraph{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 4rem;
+}
+
+
 
 
 
