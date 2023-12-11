@@ -176,6 +176,20 @@ header img{
     min-width: 100%;
     box-sizing: border-box;
 }
+
+.SlideLogo{
+    height: 30vh;
+    display: flex;
+}
+
+.heading{
+    font-size: 2rem;
+    color: var(--orange);
+    position: relative;
+    left: 45%;
+    margin-top: 3rem;
+    font-size: 5rem;
+}
    
 .buttonSlide {
     cursor: pointer;
@@ -195,10 +209,11 @@ header img{
     margin: auto;
     overflow: hidden;
     position: relative;
-} 
+}
+
 .logos {
     display: flex;
-    animation: scroll 9s linear infinite;
+    animation: scroll 18s linear infinite; /* Duplica el tiempo para que los logos duplicados se muestren también */
 }
 
 .logo {
@@ -217,9 +232,10 @@ header img{
         transform: translateX(0);
     }
     100% {
-        transform: translateX(calc(-170px * 7)); /* Ajusta el número total de logos */
+        transform: translateX(calc(-170px * 14)); /* Duplica el número total de logos */
     }
 }
+
 
 .quality-section{
     background-color: var(--brown);
