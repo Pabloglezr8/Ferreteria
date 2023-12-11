@@ -60,6 +60,8 @@ body{
     overflow-x: hidden;
 }
 
+
+
 header img{
     margin: 5rem;
     width: 100px;
@@ -180,6 +182,7 @@ header img{
 .SlideLogo{
     height: 50vh;
     display: flex;
+    margin-left: -25rem;
 }
 
 .heading{
@@ -392,6 +395,7 @@ header img{
 footer{
     background-color: var(--brown);
     padding: 10rem;
+    padding-left: 20rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 4rem;
