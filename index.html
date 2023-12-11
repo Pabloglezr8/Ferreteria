@@ -123,6 +123,7 @@
         </section>
     
             
+
         <section>
             <h3>PROFESIONALIDAD Y EXCELENCIA</h3>
             <h1>Calidad y variedad de Productos</h1>
@@ -145,62 +146,60 @@
         </section>
 
         <section>
-            <div>
-                <h3>FERRETERIA EN EL CENTRO DE GIJON</h3>
-                <h1>Conoce nuestra Ferreteria</h1>
-                <button>Mas Información</button>
+            <h1 style="text-align: center;">¿Qué opinan nuestros clientes?</h1>
+    
+            <div id="slider-container">
+                <div id="slider">
+                    <div class="slide"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo qui nulla, nobis voluptate odit harum pariatur illum perferendis possimus sed? Magni facere, id expedita dicta fuga sequi voluptas quidem debitis?</p></div>
+                    <div class="slide"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo qui nulla, nobis voluptate odit harum pariatur illum perferendis possimus sed? Magni facere, id expedita dicta fuga sequi voluptas quidem debitis?</p></div>
+                    <div class="slide"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo qui nulla, nobis voluptate odit harum pariatur illum perferendis possimus sed? Magni facere, id expedita dicta fuga sequi voluptas quidem debitis?</p></div>
+                </div>
             </div>
+                 
+                <button onclick="prevSlide()" class="buttonSlide"><img src="/assets/img/felchaIzquierda.png" alt="flechaIzquierda" class="flecha"></button>
+                <button onclick="nextSlide()" class="buttonSlide"><img src="/assets/img/flechaDerecha.png" alt="flechaDerecha" class="flecha"></button>
+        </section>
 
-            <div>
-                <img src="/assets/img/ferreteria1.jpg" alt="ImgFerreteria1">
-                <img src="/assets/img/ferreteria2.jpg" alt="ImgFerreteria2">
-                <img src="/assets/img/ferreteria3.jpg" alt="ImgFerreteria3">
-                <img src="/assets/img/ferreteria4.jpg" alt="ImgFerreteria4">
+        <section class="SlideLogo">
+            <h1 style="text-align: center;">Nuestros Socios</h1>
+    
+            <div class="carousel-container">
+                <div class="logos">
+                    <div class="logo">
+                        <img src="/assets/img/logoBBVA.png" alt="Logo 1" class="logoMarca">
+                    </div>
+                    <div class="logo">
+                        <img src="/assets/img/logoSantander.png" alt="Logo 2" class="logoMarca">
+                    </div>
+                    <div class="logo">
+                        <img src="/assets/img/logoRural.png" alt="Logo 3" class="logoMarca">
+                    </div>
+                    <div class="logo">
+                        <img src="/assets/img/logoBankia.png" alt="Logo 4" class="logoMarca">
+                    </div>
+                    <div class="logo">
+                        <img src="/assets/img/logoCitibank.png" alt="Logo 5" class="logoMarca">
+                    </div>
+                    <!--
+                         <div class="logo">
+                        <img src="/assets/logos/logo6.png" alt="Logo 6" class="logoMarca">
+                    </div>
+                    <div class="logo">
+                        <img src="/assets/logos/logo7.png" alt="Logo 7" class="logoMarca">
+                    </div>
+
+                    -->
+                   
+                </div>
             </div>
         </section>
 
-        <section>
-            <h1 style="text-align: center;">¿Qué opinan nuestros clientes?</h1>
-
-            <div class="slider-container">
-                <input type="radio" class="slider-input" name="slider" id="slide1" checked>
-                <input type="radio" class="slider-input" name="slider" id="slide2">
-                <input type="radio" class="slider-input" name="slider" id="slide3">
-                <input type="radio" class="slider-input" name="slider" id="slide4">
-
-                <div class="slides">
-                    <div class="slide">
-                        <div class="customer-feedback">
-                            <p>Comentario 1</p>
-                            <p>Cliente 1</p>
-                        </div>
-                    </div>
-                    <div class="slide">
-                        <div class="customer-feedback">
-                            <p>Comentario 2</p>
-                            <p>Cliente 2</p>
-                        </div>
-                    </div>
-                    <div class="slide">
-                        <div class="customer-feedback">
-                            <p>Comentario 3</p>
-                            <p>Cliente 3</p>
-                        </div>
-                    </div>
-                    <div class="slide">
-                        <div class="customer-feedback">
-                            <p>Comentario 4</p>
-                            <p>Cliente 4</p>
-                        </div>
-                    </div>
-                    <!-- Agrega más slides según sea necesario -->
-                </div>
-
-                <label for="slide2" class="arrow next">&#8250;</label>
-            </div>
-        </section>        
+                
+    
 
     </main>
+
+    <script src="/scripts/slider.js"></script>
     
 </body>
 </html>

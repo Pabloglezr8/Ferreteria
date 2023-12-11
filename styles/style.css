@@ -48,6 +48,7 @@
     --color-tertiary-dark: #5643fa;
 }
 
+<<<<<<< HEAD
 body{
     font-family: Montserrat-Regular;
     background-color: var(--white);
@@ -109,61 +110,70 @@ body{
 .card:hover .card__side--back{
     transform: rotateY(0);
 }
+=======
+.clientes{
+    height: 300px;
+}
+
+>>>>>>> e7e3e52b4b093b1f0c37160c128647cf26f81ab9
 /*Slide Comentarios Clientes*/
-.slider-container {
-    width: 70%;
+#slider-container {
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+   
+#slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+   
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+   
+.buttonSlide {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.flecha{
+    width: 40px;
+    height: 40px;
+}
+
+.carousel-container {
+    width: 80%;
     margin: auto;
     overflow: hidden;
     position: relative;
 }
 
-.slides {
+.logos {
     display: flex;
-    transition: transform 0.5s ease-in-out;
+    animation: scroll 9s linear infinite;
 }
 
-.slide {
-    min-width: 100%;
+.logo {
+    flex: 0 0 auto; 
     box-sizing: border-box;
+    margin-right: 80px;
 }
 
-.customer-feedback {
-    text-align: center;
-    padding: 20px;
+.logoMarca {
+    width: 170px;
+    height: 60px;
 }
 
-.arrow {
-    position: absolute;
-    top: 50%;
-    width: 30px;
-    height: 30px;
-    background-color: #333;
-    color: #fff;
-    font-size: 18px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    border: none;
-    outline: none;
-}
-
-.prev {
-    left: 10px;
-}
-
-.next {
-    right: 10px;
-}
-
-.slider-input {
-    display: none;
-}
-
-.slider-input:checked + .slides {
-    transform: translateX(-100%);
-}
-
-.slider-input:checked + .slides + .arrow.next {
-    transform: translateX(-100%);
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-170px * 7)); /* Ajusta el número total de logos */
+    }
 }
