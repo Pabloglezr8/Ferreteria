@@ -342,10 +342,10 @@ header img{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5rem;
+    gap: 3.7rem;
 }
 .meet-us__img-container img{
-    border-radius: 2rem;    
+    border-radius: 2rem; 
 }
 
 .customers-reviews-section{
