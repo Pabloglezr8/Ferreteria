@@ -58,10 +58,15 @@
     box-sizing: border-box;
 }
    
-button {
+.buttonSlide {
     cursor: pointer;
     border: none;
     outline: none;
     font-size: 20px;
     padding: 10px;
+}
+
+.flecha{
+    width: 40px;
+    height: 40px;
 }
