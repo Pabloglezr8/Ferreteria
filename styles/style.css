@@ -155,7 +155,7 @@ header img{
 .container-tools .img3 {
     position: absolute;
     right: 0;
-    bottom: 0;
+    bottom: -3rem;
     width: 400px; /* Cambia este valor al ancho deseado */
     height: auto; /* Asegura que la altura se ajuste proporcionalmente */
 }
@@ -247,7 +247,7 @@ header img{
     background-color: var(--brown);
     padding: 8rem;
     font-size: 5.5rem;
-    margin-top: 3rem;
+    margin-top: 5rem;
 }
 
 .quality-section h3{
