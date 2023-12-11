@@ -366,6 +366,32 @@ header img{
     margin-top: 4rem;
 }
 
+.last-section{
+    height: 50vh;
+    background-color: var(--white);
+}
+
+footer{
+    background-color: var(--brown);
+    padding: 10rem;
+}
+
+footer > div h2{
+    font-size: 2.2rem;
+    color: white;
+}
+
+footer > div a{
+    font-size: 1.8rem;
+    color: white;
+    text-decoration: none;
+}
+
+footer > div p{
+    font-size: 1.8rem;
+    color: white;
+}
+
 
 
 
