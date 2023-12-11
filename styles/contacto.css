@@ -110,14 +110,9 @@ header img{
 }
 
 .image-container img {
-    width: 10rem;
-    height: 10rem;
-    border-radius: 55%;
-    width: 15rem;
-    height: 15rem;
+    width: 11rem;
+    height: 11rem;
     border-radius: 50%;
-    height: auto;
-    
 }
 
 .image-container p{
@@ -132,10 +127,6 @@ header img{
     margin-bottom: 10px;
 }
 
-.logos{
-    width: 80px;
-    height: 80px;
-}
 .imgFerreteria{
     width: 700px;
     height: 400px;
