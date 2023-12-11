@@ -10,11 +10,13 @@
 </head>
 <body>
     <header>
+      <a href="/index.html">
         <img
           src="/assets/img/logoFerreteria.png"
           alt="logoFerreteria"
           class="logo"
         />
+      </a>
         <div class="navigation">
           <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
   
@@ -47,9 +49,19 @@
         </div>
       </header>
 
+      <section class="main-contact-section">
+        <a
+          href="https://www.google.com/maps/place/C.+Anselmo+Solar,+52,+33204+Gij%C3%B3n,+Asturias/@43.5306354,-5.644582,17z/data=!3m1!4b1!4m6!3m5!1s0xd367b7d96127bd5:0xc16f7aa563e5d3c6!8m2!3d43.5306354!4d-5.644582!16s%2Fg%2F11c28d_s0v?entry=ttu"
+          target="_blank"
+          >Calle Anselmo Solar 52</a
+        >
+        <a href="">Envianos un Email</a>
+        <a href="">984 70 09 04</a>
+      </section>
+
     <section class="header-contact">
         <h1>Contacto</h1>
-        <button>Enviar</button>
+        <button class="contact-btn">Enviar</button>
     </section>
 
     <section class="container"> 
@@ -70,10 +82,16 @@
         </div>
     </section>
 
-    <section>
+    <section class="form-section">
+        
+        <div id="map" class="map">
+
+
+        </div>
+
         <div class="form-container">
             <form action="#" method="post">
-                <legend>Escribe un mensaje</legend>
+                <legend>Contacta con nosotros</legend>
                 <div class="form-group">
                     <label for="nombre">Nombre:</label>
                     <input type="text" id="nombre" name="nombre" required>
@@ -100,37 +118,44 @@
             </form>
         </div>
 
-        <div id="map">
-
-
-        </div>
-
     </section>
 
     <footer>
-        <div>
-          <h2>FERRETERIA VEGAGRANDE</h2>
-          <p>Ferretería en Gijón con más de 50 años de historia. Venta de material eléctrico, fontanería, herramientas, menaje del hogar,
-            cerrajería, pintura… ¡Te esperamos!</p>
-        </div>
-        <div>
-          <h2>Nuestra Web</h2>
-          <a href="/index.html">Inicio</a>
-          <a href="../templates/productos.html">Productos y Servicios</a>
-          <a href="">Quienes Somos</a>
-          <a href="../templates/contacto.html">Contacto</a>
-        </div>
-        <div>
-          <h2>Contacto</h2>
-          <p>
-            984 19 48 15 <br />
-            WhatsApp: <br />
-            677 49 58 05 <br />
-            Dirección: <br />
-            C. Aguado, 36, 33202 Gijón, Asturias
-          </p>
-        </div>
-      </footer>
+      <div class="col1">
+        <h2>FERRETERIA VEGAGRANDE</h2>
+        <p>Ferretería en Gijón con más de 50 años de historia. Venta de material eléctrico, fontanería, herramientas, menaje del hogar,
+          cerrajería, pintura… ¡Te esperamos!</p>
+      </div>
+      <div class="col2">
+        <h2>Nuestra Web</h2>
+        <a href="/index.html">Inicio</a>
+        <a href="/templates/productos.html">Productos y Servicios</a>
+        <a href="/templates/quienesSomos.html">Quienes Somos</a>
+        <a href="templates/contacto.html">Contacto</a>
+      </div>
+      <div class="col col3">
+        <h2>Contacto</h2>
+        <p>
+          Telefono: <br />
+          984 19 48 15 <br />
+          WhatsApp: <br />
+          677 49 58 05 <br />
+          Dirección: <br />
+          C. Aguado, 36, 33202 Gijón, Asturias
+        </p>
+      </div>
+    </footer>
+    <section class="copy">
+      <div>
+        <p>
+          Copyright &copy 2023 – Página web desarrollada por Los Pijas
+          &nbsp; &nbsp; &nbsp; &nbsp;
+          <a href="">Aviso Legal |</a> 
+          <a href="">Política de privacidad |</a>
+          <a href="">Cookies</a>
+        </p>         
+      </div>     
+    </section>
 
       <script src="../scripts/api.js"></script>
       <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD24mZntuwxg_fBGsSFrpa4LkhnbuWv9kA&callback=iniciarMap"></script>
