@@ -59,8 +59,16 @@ body {
     
 }
 
-h1 {
-    margin-top: 10px; /* Ajusta el espacio entre la imagen y el título según sea necesario */
+.image-container p{
+    font-size: 1.1rem;
+}
+
+.image-container h2 {
+    font-size: 1.7rem;
+    margin-top: 10px;
+    color: rgba(75,47,27,255);
+    font-size: bold;
+    margin-bottom: 10px;
 }
 
 .logos{
@@ -95,9 +103,10 @@ form {
     margin-bottom: 20px;
 }
 
-label {
+
+.form-group label {
     display: block;
-    margin-bottom: 8px;
+    margin-bottom: 5px;
 }
 
 input,
