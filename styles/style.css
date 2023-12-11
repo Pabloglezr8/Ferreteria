@@ -300,11 +300,13 @@ header img{
     position: relative;
     padding: 8rem;
     height: 50vh;
+    margin-bottom: 15rem;
 }
 
 .meet-us h2{
     color: var(--white);
     font-size: 4rem;
+    font-weight: bold;
 }
 
 .meet-us h3{
@@ -334,7 +336,6 @@ header img{
     }
 }
 
-
 .meet-us__img-container{
     margin-top: 5rem;
     position: absolute;
@@ -346,6 +347,7 @@ header img{
 .meet-us__img-container img{
     border-radius: 2rem;    
 }
+
 
 
 
