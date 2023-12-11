@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
     <link rel="stylesheet" href="../styles/contacto.css">
+    <link rel="stylesheet" href="../styles/style.css">
     <link rel="stylesheet" href="../styles/navbar.css">
     <link rel="stylesheet" href="../styles/apiMaps.css">
 </head>
@@ -49,65 +50,81 @@
         </div>
       </header>
 
-    <section class="header-contact">
-        <h1>Contacto</h1>
-        <button>Enviar</button>
-    </section>
+      <main>
+        <section class="main-contact-section">
+          <a
+            href="https://www.google.com/maps/place/C.+Anselmo+Solar,+52,+33204+Gij%C3%B3n,+Asturias/@43.5306354,-5.644582,17z/data=!3m1!4b1!4m6!3m5!1s0xd367b7d96127bd5:0xc16f7aa563e5d3c6!8m2!3d43.5306354!4d-5.644582!16s%2Fg%2F11c28d_s0v?entry=ttu"
+            target="_blank"
+            >Calle Anselmo Solar 52</a
+          >
+          <a href="">Envianos un Email</a>
+          <a href="">984 70 09 04</a>
+        </section>
 
-    <section class="container"> 
-        <div class="image-container">
-            <img src="../assets/img/telefono.png" alt="Imagen 1" class="logos">
-            <h2>Telefono</h2>
-            <p>984 19 48 15</p>
-        </div>
-        <div class="image-container">
-            <img src="../assets/img/location3.png" alt="Imagen 2" class="logos">
-            <h2>Direccion</h2>
-            <p>C/Aguado 36 33202 Gijon, Asturias</p>
-        </div>
-        <div class="image-container">
-            <img src="../assets/img/message.png" alt="Imagen 3" class="logos">
-            <h2>Mail</h2>
-            <p>Envianos un email</p>
-        </div>
-    </section>
+        <section class="header-contact">
+          <h1>Contacto</h1>
+          <button>Enviar</button>
+        </section>
+  
+        <section class="container"> 
+          <div class="image-container">
+              <img src="../assets/img/telefono.png" alt="Imagen 1" class="logos">
+              <h2>Telefono</h2>
+              <p>984 19 48 15</p>
+          </div>
+          <div class="image-container">
+              <img src="../assets/img/location3.png" alt="Imagen 2" class="logos">
+              <h2>Direccion</h2>
+              <p>C/Aguado 36 33202 Gijon, Asturias</p>
+          </div>
+          <div class="image-container">
+              <img src="../assets/img/message.png" alt="Imagen 3" class="logos">
+              <h2>Mail</h2>
+              <p>Envianos un email</p>
+          </div>
+        </section>
+  
+        <section>
 
-    <section>
-        <div class="form-container">
-            <form action="#" method="post">
-                <legend>Escribe un mensaje</legend>
-                <div class="form-group">
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" id="nombre" name="nombre" required>
-                </div>
+          <div class="form-container">
+              <form action="#" method="post">
+                  <legend>Escribe un mensaje</legend>
+                  <div class="form-group">
+                      <label for="nombre">Nombre:</label>
+                      <input type="text" id="nombre" name="nombre" required>
+                  </div>
+      
+                  <div class="form-group">
+                      <label for="email">Email:</label>
+                      <input type="email" id="email" name="email" required>
+                  </div>
+      
+                  <div class="form-group">
+                      <label for="telefono">Teléfono:</label>
+                      <input type="tel" id="telefono" name="telefono">
+                  </div>
+      
+                  <div class="form-group">
+                      <label for="mensaje">Mensaje:</label>
+                      <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                  </div>
+      
+                  <div class="form-group">
+                      <button type="submit">Enviar</button>
+                  </div>
+              </form>
+          </div>
+  
+          <div id="map">
+  
+          </div>
+  
+        </section>
+
+
+      </main>
+
     
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-    
-                <div class="form-group">
-                    <label for="telefono">Teléfono:</label>
-                    <input type="tel" id="telefono" name="telefono">
-                </div>
-    
-                <div class="form-group">
-                    <label for="mensaje">Mensaje:</label>
-                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
-                </div>
-    
-                <div class="form-group">
-                    <button type="submit">Enviar</button>
-                </div>
-            </form>
-        </div>
-
-        <div id="map">
-
-
-        </div>
-
-    </section>
 
     <footer>
       <div class="col1">

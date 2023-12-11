@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ferreteria</title>
     <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="/styles/slider.css">
+    <!--BOXIICONS CSS-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--SWIPPER CSS-->
+    <link rel="stylesheet" href="/styles/swiper-bundle.min.css">
   </head>
   <body>
     <header>
@@ -314,7 +320,7 @@
         <h3>Ferretería en Gijón</h3>
         <div class="right-container">
             <h2>Conoce Nuestra Ferretería</h2>
-            <a href="#">Más información</a>
+            <a href="/templates/contacto.html">Más información</a>
         </div>
        
         <div class="meet-us__img-container">
@@ -325,7 +331,51 @@
         </div>
     </section>
 
-    <section class="customers-reviews-section">
+    <section class="container">
+      <div class="testimonial mySwiper">
+        <div class="testi-content swiper-wrapper">
+          <div class="slide swiper-slide">
+            <img src="assets/img/imagen1Empresario.jpg" alt="" class="image">
+            <p>"¡Qué gran experiencia en tu ferretería! Encontré todo lo que necesitaba para mi proyecto de bricolaje y el servicio fue excepcional. Los empleados fueron increíblemente serviciales y conocedores, lo que hizo que mi visita fuera muy productiva. ¡Definitivamente volveré por la calidad de atención y los productos de primera!"</p>
+            <i class='bx bxs-quote-left quote-icon'></i>
+            <div class="details">
+              <span class="name">Federico Gonzalez</span>
+              <span class="job">CEO Bosch</span> 
+            </div>
+          </div>
+          <div class="slide swiper-slide">
+            <img src="assets/img/imagen2Empresario.avif" alt="" class="image">
+            <p>Dependienta y dependientes como nadie, no pueden ser mas maja/os, siempre que voy me atienden estupendamente,
+                tienen de todo y a muy buen precio, comercio local comprad ahí!!!!.</p>
+            <i class='bx bxs-quote-left quote-icon'></i>
+            <div class="details">
+              <span class="name">Federico Gonzalez</span>
+              <span class="job">CEO Bosch</span> 
+            </div>
+          </div>
+    
+          <div class="slide swiper-slide">
+            <img src="assets/img/imagen3Empresario.jpg" alt="" class="image">
+            <p>"Dependiente muy amable y atento. Tiene de todo, a buen precio y productos de calidad. Muy recomendable."</p>
+            <i class='bx bxs-quote-left quote-icon'></i>
+            <div class="details">
+              <span class="name">Federico Gonzalez</span>
+              <span class="job">CEO Bosch</span> 
+            </div>
+          </div>
+          </div>
+          <div class="swiper-button-next nav-btn"></div>
+          <div class="swiper-button-prev nav-btn"></div>
+          <div class="swiper-pagination"></div>
+  
+        </div>
+        
+      </div>
+
+    </section>
+
+    <!--
+      <section class="customers-reviews-section">
         <h2 style="text-align: center">¿Qué opinan nuestros clientes?</h2>
 
         <div id="slider-container">
@@ -366,6 +416,10 @@
           />
         </button>
       </section>
+
+    -->
+
+    
      
       <section class="SlideLogo">
         <div class="heading">
@@ -519,6 +573,9 @@
         </p>         
       </div>     
     </section>
+
+    <!--SWIPPER JS-->
+    <script src="scripts/swiper-bundle.min.js"></script>
     <script src="scripts/slider.js"></script>
   </body>
 </html>
