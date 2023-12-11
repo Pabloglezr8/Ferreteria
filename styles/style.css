@@ -407,12 +407,9 @@ footer > div h2{
     margin-bottom: 4rem;
 }
 
-.col p{
-    line-height: 1.75;
-}
-
 .col1{
     width: 40rem;
+    line-height: 2;
 }
 
 .col2{
@@ -420,6 +417,11 @@ footer > div h2{
     flex-direction: column;
     gap: 1rem;
     margin-top: -1rem;
+    margin-left: 7rem;
+}
+
+.col3{
+    line-height: 2;
 }
 
 footer > div a{
