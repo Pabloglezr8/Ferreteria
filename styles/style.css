@@ -38,7 +38,7 @@
 
 :root{
     --white: #ececec;
-    --orange: rgba(242,148,0,255)
+    --orange: rgba(242,148,0,255);
     --brown: rgba(75,47,27,255);
     --black: rgba(0,0,0,255);
     --blue: rgb(12,51,132);
@@ -53,14 +53,57 @@
 
 body{
     font-family: Montserrat-Regular;
-    background-color: var(--white);
+    background-color: rgba(244,243,242,255);
     color: var(--black);
     font-size: 5rem;
     line-height: 1.5;
     overflow-x: hidden;
 }
 
-/* Cards Productos */
+header img{
+    margin: 5rem;
+    width: 100px;
+}
+
+.main-contact-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-bottom: 5rem;
+}
+
+.main-contact-section a{
+    font-size: 1.5rem;
+    text-decoration: none; 
+    color: black;  
+}
+.main-contact-section a:hover{
+    font-size: 1.5rem;
+    text-decoration: underline; 
+    color: var(--orange);  
+}
+
+.main-contact-section:visited{
+    color: var(--blue);
+}
+
+.section-tours-title{
+    margin-left: 8rem;
+}
+
+.section-tours-title h3{
+    font-size: 2rem;
+    color: var(--orange);
+}
+.section-tours-title h1{
+    font-size: 5.5rem;
+    color: var(--brown);
+}
+.section-tours-title p{
+    font-size: 2rem;
+}
 
 .clientes{
     height: 300px;
