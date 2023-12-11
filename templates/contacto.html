@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/contacto.css">
+</head>
+<body>
+    <!--Navbar-->
+    <section>
+        <h1>Contacto</h1>
+        <img src="/assets/img/ferreteriaContacto.jpeg" alt="imgFerreteria" class="imgFerreteria">
+    </section>
+
+    <section class="container"> 
+        <div class="image-container">
+            <img src="../assets/img/logoTelefono.png" alt="Imagen 1" class="logos">
+            <h1>Telefono</h1>
+            <p>984 19 48 15</p>
+        </div>
+        <div class="image-container">
+            <img src="../assets/img/logoDireccion.png" alt="Imagen 2" class="logos">
+            <h1>Direccion</h1>
+            <p>C/Aguado 36 33202 Gijon, Asturias</p>
+        </div>
+        <div class="image-container">
+            <img src="../assets/img/logoEmail.png" alt="Imagen 3" class="logos">
+            <h1>Mail</h1>
+            <p>Envianos un email</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="form-container">
+            <form action="#" method="post">
+                <h1>Escribe un mensaje</h1>
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono">
+                </div>
+    
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                </div>
+    
+                <div class="form-group">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+
+    </section>
+    
+</body>
+</html>

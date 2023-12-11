@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: rgb(54,54,54);
+    background: radial-gradient(circle, rgba(54,54,54,1) 0%, rgba(121,121,121,1) 33%, rgba(198,198,198,1) 72%);
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    
+    padding: 30px;
+}
+
+.image-container {
+    
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    
+}
+
+h1 {
+    margin-top: 10px; /* Ajusta el espacio entre la imagen y el título según sea necesario */
+}
+
+.logos{
+    width: 80px;
+    height: 80px;
+}
+.imgFerreteria{
+    width: 700px;
+    height: 400px;
+}
+.form-container {
+    width: 40%;
+    margin: 50px auto;
+    color: black;
+}
+
+form {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
