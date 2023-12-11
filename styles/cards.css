@@ -3,9 +3,14 @@
     margin-top: -10rem; */
     display: grid;
     margin: 10rem 0 10rem 10rem;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(45rem, 1fr)
+    );
+    gap: 4rem;
 }
+
+
 
 .card {
     perspective: 150rem;
@@ -31,10 +36,6 @@
         transform: rotateY(180deg); }
         .card__side--back-1 {
           background-image: linear-gradient(to right bottom, #ffb900, #ff7730); }
-       /*  .card__side--back-2 {
-          background-image: linear-gradient(to right bottom, #7ed56f, #28b485); }
-        .card__side--back-3 {
-          background-image: linear-gradient(to right bottom, #2998ff, #5643fa); } */
     .card:hover .card__side--front {
       transform: rotateY(-180deg); }
     .card:hover .card__side--back {
@@ -61,6 +62,18 @@
         background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85)); }
     .card__details {
       padding: 3rem; }
+      .card__details h3{
+        font-size: 3rem;
+        text-align: center;
+      }
+      .card__details img{
+        width: 8rem;
+        height: auto;
+        position: relative;
+        left: 35%;
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+      }
       .card__details ul {
         list-style: none;
         width: 80%;
@@ -83,10 +96,12 @@
       color: #fff;
       margin-bottom: 8rem; }
     .card__price-only {
-      font-size: 1.4rem;
+      margin-top: 3rem;
+      font-size: 2rem;
       text-transform: uppercase; }
     .card__price-value {
-      font-size: 6rem;
+      margin-top: 3rem;
+      font-size: 2rem;
       font-weight: 100; }
     @media only screen and (max-width: 56.25em), only screen and (hover: none) {
       .card {
@@ -116,3 +131,34 @@
           margin-bottom: 3rem; }
         .card__price-value {
           font-size: 4rem; } }
+
+          .btn, .btn:link, .btn:visited {
+            margin-top: 2rem;
+            text-transform: uppercase;
+            text-decoration: none;
+            padding: 1.5rem 4rem;
+            display: inline-block;
+            border-radius: 10rem;
+            transition: all .2s;
+            position: relative;
+            font-size: 1.6rem;
+            border: none;
+            cursor: pointer; }
+          
+          .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
+            .btn:hover::after {
+              transform: scaleX(1.4) scaleY(1.6);
+              opacity: 0; }
+          
+          .btn:active, .btn:focus {
+            outline: none;
+            transform: translateY(-1px);
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
+          
+          .btn--white {
+            background-color: #fff;
+            color: #777; }
+            .btn--white::after {
+              background-color: #fff; }
