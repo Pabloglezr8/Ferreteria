@@ -129,7 +129,7 @@ header img{
          3, 1fr
    );
    position: relative;
-   gap: 2rem;
+ 
    height: 100%;
    
 }
@@ -139,12 +139,19 @@ header img{
     border-radius: 2rem;
 }
 
-.img3{
-    position: absolute;
-    right: 2rem;
-    bottom: 0;
-    
+.img1, 
+.img2{
+    margin-left: 2rem;
 }
+
+.container-tools .img3 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 400px; /* Cambia este valor al ancho deseado */
+    height: auto; /* Asegura que la altura se ajuste proporcionalmente */
+}
+
 
 .clientes{
     height: 300px;
