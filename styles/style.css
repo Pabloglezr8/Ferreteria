@@ -48,7 +48,6 @@
     --color-tertiary-dark: #5643fa;
 }
 
-<<<<<<< HEAD
 body{
     font-family: Montserrat-Regular;
     background-color: var(--white);
@@ -110,12 +109,11 @@ body{
 .card:hover .card__side--back{
     transform: rotateY(0);
 }
-=======
+
 .clientes{
     height: 300px;
 }
 
->>>>>>> e7e3e52b4b093b1f0c37160c128647cf26f81ab9
 /*Slide Comentarios Clientes*/
 #slider-container {
     max-width: 600px;
