@@ -74,6 +74,7 @@ header img{
     margin-bottom: 5rem;
 }
 
+
 .main-contact-section a,
 .quality-section > div a{
     font-size: 1.5rem;
@@ -160,7 +161,7 @@ header img{
 }
 
 /*Slide Comentarios Clientes*/
-#slider-container {
+ #slider-container {
     max-width: 600px;
     margin: auto;
     overflow: hidden;
@@ -194,8 +195,7 @@ header img{
     margin: auto;
     overflow: hidden;
     position: relative;
-}
-
+} 
 .logos {
     display: flex;
     animation: scroll 9s linear infinite;
@@ -225,6 +225,10 @@ header img{
     background-color: var(--brown);
     padding: 8rem;
     font-size: 5.5rem;
+}
+
+@media (min-width: ) {
+    
 }
 
 .quality-section h3{
@@ -351,6 +355,7 @@ header img{
 .customers-reviews-section{
     background-color: var(--brown);
     height: 50vh;
+    padding: 5rem;
 }
 
 .customers-reviews-section h2{
