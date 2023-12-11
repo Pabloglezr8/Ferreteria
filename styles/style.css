@@ -36,3 +36,12 @@
     --blue: rgb(12,51,132);
     --shadow: 0 0 10px rgba(0,0,0,0.5);
 }
+
+body{
+    font-family: Montserrat-Regular;
+    background-color: var(--white);
+    color: var(--black);
+    font-size: 16px;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
