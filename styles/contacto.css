@@ -14,7 +14,6 @@ body {
 }
 
 
-
 header img{
     margin: 5rem;
     width: 100px;
@@ -76,9 +75,12 @@ header img{
     width: 10rem;
     height: 10rem;
     border-radius: 55%;
+<<<<<<< HEAD
     width: 15rem;
     height: 15rem;
     border-radius: 50%;
+=======
+>>>>>>> bcbd1f21c7059020e07fbe15263e2ece19bf4823
     height: auto;
     
 }
