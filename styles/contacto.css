@@ -1,10 +1,33 @@
-
-body {
+*, *::before, *::after {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+body {
+   
     font-family: Arial, sans-serif;
     background-color: rgb(225, 225, 225);
     color: black;
+}
+
+.header-contact {
+    position: relative;
+    height: 50vh;
+    background-image: url(../assets/img/ferreteriaContacto.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.header-contact::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); 
 }
 
 .container {
