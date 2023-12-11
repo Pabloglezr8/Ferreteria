@@ -14,7 +14,6 @@ body {
 }
 
 
-
 header img{
     margin: 5rem;
     width: 100px;
@@ -73,15 +72,9 @@ header img{
 }
 
 .image-container img {
-<<<<<<< HEAD
     width: 10rem;
     height: 10rem;
     border-radius: 55%;
-=======
-    width: 15rem;
-    height: 15rem;
-    border-radius: 50%;
->>>>>>> 48d27ef3b6b793b7f3bd1071c402af25b8e5b42d
     height: auto;
     
 }

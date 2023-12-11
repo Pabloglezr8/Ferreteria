@@ -178,7 +178,7 @@ header img{
 }
 
 .SlideLogo{
-    height: 30vh;
+    height: 50vh;
     display: flex;
 }
 
@@ -241,6 +241,7 @@ header img{
     background-color: var(--brown);
     padding: 8rem;
     font-size: 5.5rem;
+    margin-top: 3rem;
 }
 
 .quality-section h3{
