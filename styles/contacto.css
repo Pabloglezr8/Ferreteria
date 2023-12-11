@@ -114,6 +114,11 @@ textarea{
     height: 100px;
 }
 
+input:focus,
+textarea:focus{
+    outline-color: rgba(242,148,0,255);
+}
+
 button {
     background-color: rgba(242,148,0,255);
     color: #fff;
