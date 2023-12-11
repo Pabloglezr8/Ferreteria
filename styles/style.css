@@ -40,6 +40,12 @@
     --black: rgba(0,0,0,255);
     --blue: rgb(12,51,132);
     --shadow: 0 0 10px rgba(0,0,0,0.5);
+
+    --color-secondary-light: #ffb900;
+    --color-secondary-dark: #ff7730;
+
+    --color-tertiary-light: #2998ff;
+    --color-tertiary-dark: #5643fa;
 }
 
 body{
@@ -52,20 +58,14 @@ body{
 }
 
 /* Cards Productos */
-.section-tours{
-    padding: 25rem 0 50rem 0;
-    margin-top: -10rem;
+
+.row{
+    /* padding: 25rem 0 50rem 0;
+    margin-top: -10rem; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
-.section-tours .card{
-    width: 32%;
-    float: left;
-    margin-right: 2%;
-    margin-bottom: 2%;
-    border-radius: 3px;
-    box-shadow: 0 1.5rem 4rem rgba(0,0,0,0.15);
-    transition: all .2s;
-    background-color: var(--orange);
-}
+
 .card{
     perspective: 150rem;
     -moz-perspective: 150rem;
@@ -98,6 +98,11 @@ body{
     background-color: var(--orange);
     transform: rotateY(180deg);
 }
+
+.card__side--back .-card__side--back-1{
+    background-image: linear-gradient(to right bottom, var(--color-secondary-light), var(--color-secondary-dark));
+}
+
 .card:hover .card__side--front{
     transform: rotateY(180deg);
 }
