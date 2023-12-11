@@ -16,7 +16,6 @@ body {
     background-image: url(../assets/img/ferreteriaContacto.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     margin: 0;
     padding: 8rem;
 
@@ -116,14 +115,15 @@ textarea{
 }
 
 button {
-    background-color: #4caf50;
+    background-color: rgba(242,148,0,255);
     color: #fff;
-    padding: 10px 20px;
+    padding: 15px 25px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-size: 1.5rem;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #d77d4d;
 }
