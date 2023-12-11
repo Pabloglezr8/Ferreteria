@@ -19,8 +19,36 @@ header img{
     width: 100px;
 }
 
-.navigation__nlink{
+.main-contact-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-bottom: 5rem;
+}
+
+
+.main-contact-section a{
+    font-size: 1.5rem;
+    text-decoration: none; 
+    color: black;  
+}
+.main-contact-section a:hover{
+    font-size: 1.5rem;
+    text-decoration: underline; 
+    color: rgba(242,148,0,255);  
+}
+
+.main-contact-section:visited{
+    color: rgb(12,51,132);
+}
+
+.navigation__link{
     font-size: 1rem;
+}
+.navigation__link span{
+    font-size: 2rem;
 }
 .header-contact {
     position: relative;
@@ -29,15 +57,28 @@ header img{
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
-    padding: 8rem;
+    padding: 15rem;
 
     & h1{
         position: relative;
         color: white;
-        font-size: 4rem;
+        font-size: 7rem;
 
     }
+
+    & button{
+        margin-top: 5rem;
+        width: 15rem;
+        height: 7rem;
+        position: relative;
+        border-radius: 10px;
+        transition: all .5s;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
 }
+
 
 .header-contact::before {
     content: "";
@@ -72,14 +113,9 @@ header img{
 }
 
 .image-container img {
-    width: 10rem;
-    height: 10rem;
-    border-radius: 55%;
-    width: 15rem;
-    height: 15rem;
+    width: 11rem;
+    height: 11rem;
     border-radius: 50%;
-    height: auto;
-    
 }
 
 .image-container p{
@@ -94,10 +130,6 @@ header img{
     margin-bottom: 10px;
 }
 
-.logos{
-    width: 80px;
-    height: 80px;
-}
 .imgFerreteria{
     width: 700px;
     height: 400px;
@@ -114,12 +146,18 @@ header img{
     }
 }
 
+.form-section{
+    display: flex;
+    padding: 10rem;
+}
+
 form {
     background-color: #f4f4f4;
     border: 1px solid #e5e5e5;
     padding: 20px;
     border-radius: 8px;
     width: 100%;
+    height: 100%;
     font-size: 3rem;
 }
 
@@ -132,6 +170,13 @@ form {
     display: block;
     margin-bottom: 5px;
     font-size: 2rem;
+}
+
+legend{
+    border-bottom: 1px solid rgba(75,47,27,255);
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: rgba(242,148,0,255);
 }
 
 input,
@@ -158,12 +203,13 @@ button {
     color: #fff;
     padding: 15px 25px;
     border: none;
-    border-radius: 4px;
+    border-radius: 10px;
     cursor: pointer;
     font-size: 2rem;
     transition: all .5s;
 
     &:hover{
         background-color: rgba(75,47,27,255);
+        transform: scale(1.1);
     }
 }
