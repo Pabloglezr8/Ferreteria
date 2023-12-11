@@ -44,8 +44,11 @@ header img{
     color: rgb(12,51,132);
 }
 
-.navigation__nlink{
+.navigation__link{
     font-size: 1rem;
+}
+.navigation__link span{
+    font-size: 2rem;
 }
 .header-contact {
     position: relative;
