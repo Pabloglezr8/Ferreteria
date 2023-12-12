@@ -61,7 +61,6 @@ body{
 }
 
 
-
 header img{
     margin: 5rem;
     width: 100px;
@@ -166,10 +165,12 @@ header img{
 }
 
 /*Slide Comentarios Clientes*/
+
  #slider-container {
     max-width: 600px;
     margin: auto;
     overflow: hidden;
+    background-color: var(--brown);
 }
    
 #slider {
